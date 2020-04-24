@@ -26,4 +26,4 @@ class Graph:
                 path = curr_path.copy()
                 if child not in curr_path:
                     path.append(child)
-                    queue.append([child, path.copy()])
+                    queue.append([child, path])
