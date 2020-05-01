@@ -10,7 +10,7 @@ class Graph:
         else:
             self.graph[u].append(v)
                 
-    def dfs2(self, start, end, path=[]):
+    def dfs(self, start, end, path=[]):
         path.append(start)
 
         if start == end:
@@ -25,4 +25,4 @@ class Graph:
         neighbors = self.graph[start]
         for node in neighbors:
             if node not in path:
-                self.dfs2(node, end, path.copy())  # need copy the list otherwise list would persist
+                self.dfs(node, end, path.copy())  # need copy the list otherwise list would persist
