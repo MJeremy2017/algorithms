@@ -11,6 +11,6 @@ def match(s):
             if i != d.get(last_item):
                 return False
     if len(stack):
-        return True
-    else:
         return False
+    else:
+        return True
