@@ -6,5 +6,6 @@ Top Coding Algorithms
 - Breadth First Search
 - Stack(Matched Parentheses)
 - Linked List
+- Sort
 - Dynamic Programming
 - Binary Search
